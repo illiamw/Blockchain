@@ -1,16 +1,16 @@
 /**
  * @var crypto Variavel Global com os metodos de criptografia.
  */
-const crypto = require('./node_modules/crypto-js');
-const chain = require('./chain');
+import { SHA256 } from './node_modules/crypto-js';
+import chain from './chain.js';
 /**
  * @module generateHash geração de hash criptografado
  */
-module.exports.generateHash = function({index, prevHash, timestamp, data}) {
-  return crypto.SHA256(data + index + prevHash + timestamp).toString();;
+export function generateHash({index, prevHash, timestamp, data}) {
+  return SHA256(data + index + prevHash + timestamp).toString();;
 }
 
-module.exports.create = (data) => {
+export function create(data) {
   const lastBlock = chain.last();
   
   const newblock = {
@@ -23,7 +23,7 @@ module.exports.create = (data) => {
   return newblock;
 }
 
-module.exports.validateBlock = (newBlock, lastBlock = chain.last()) => {
+export function validateBlock(newBlock, lastBlock = chain.last()) {
   let blockIsValid = false;
 
   if (newBlock.index == lastBlock.index+1) {
