@@ -4,8 +4,8 @@
  ## Demonstração de um rede blockchain
  No diretório [BlockchainSimplificada](./BlockchainSimplificada/) encontramos uma rede blockchain composta por blocos.
  
- ## A Problemática
- ### Cadeia de suprimentos
+ ## As Problemáticas
+ ### 1 - Cadeia de suprimentos
  Gerenciamento da cadeua de suprimento do ingles **_Supply chain management_** é um segmente de logística que movimenta quantidades significativa de recursos financeiros.
  #### 6 elementos básicos da cadeia de suprimentos
 Para estruturar uma cadeia de suprimentos é preciso que a empresa saiba os tipos de demanda, nível do serviço requerido pelo consumidor, a distância que está do cliente, seus custos e alguns outros pontos que sejam relevantes para sua cadeia:
@@ -23,6 +23,9 @@ Para estruturar uma cadeia de suprimentos é preciso que a empresa saiba os tipo
 6.     Informação – A empresa deve utilizar as informações adquiridas internamente e de seus clientes finais para melhorar o seu processo de gerenciamento da cadeia de suprimentos. Dados e informações são distintos um do outro, os dados são os constituintes elementares, a informação útil vem da estruturação e o processamento desses dados.
 
 #### Blockchain: Pontos cruciais de agregação
-Transparencia - Visualização dos status de toda a cadeia.
-Conscistencia - Unicidade dos elementos na cadeia de produção economiza desperdicios.
-Escalabilidade - Possibilita a capacidade de envolver todos os envolvidos na cadeia de suplementos sem reformas de infroestrutura.
+- Transparencia - Visualização dos status de toda a cadeia.
+- Conscistencia - Unicidade dos elementos na cadeia de produção economiza desperdicios.
+- Escalabilidade - Possibilita a capacidade de envolver todos os envolvidos na cadeia de suplementos sem reformas de infroestrutura.
+
+#### 2 - Intermediação
+
